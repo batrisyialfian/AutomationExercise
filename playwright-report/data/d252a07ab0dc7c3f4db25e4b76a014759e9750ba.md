@@ -1,0 +1,172 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link "Website for automation practice" [ref=e8]:
+        - /url: /
+        - img "Website for automation practice" [ref=e9]
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link " Home" [ref=e14]:
+            - /url: /
+            - generic [ref=e15]: 
+            - text: Home
+        - listitem [ref=e16]:
+          - link " Products" [ref=e17]:
+            - /url: /products
+            - generic [ref=e18]: 
+            - text: Products
+        - listitem [ref=e19]:
+          - link " Cart" [ref=e20]:
+            - /url: /view_cart
+            - generic [ref=e21]: 
+            - text: Cart
+        - listitem [ref=e22]:
+          - link " Logout" [ref=e23]:
+            - /url: /logout
+            - generic [ref=e24]: 
+            - text: Logout
+        - listitem [ref=e25]:
+          - link " Delete Account" [ref=e26]:
+            - /url: /delete_account
+            - generic [ref=e27]: 
+            - text: Delete Account
+        - listitem [ref=e28]:
+          - link " Test Cases" [ref=e29]:
+            - /url: /test_cases
+            - generic [ref=e30]: 
+            - text: Test Cases
+        - listitem [ref=e31]:
+          - link " API Testing" [ref=e32]:
+            - /url: /api_list
+            - generic [ref=e33]: 
+            - text: API Testing
+        - listitem [ref=e34]:
+          - link " Video Tutorials" [ref=e35]:
+            - /url: https://www.youtube.com/c/AutomationExercise
+            - generic [ref=e36]: 
+            - text: Video Tutorials
+        - listitem [ref=e37]:
+          - link " Contact us" [ref=e38]:
+            - /url: /contact_us
+            - generic [ref=e39]: 
+            - text: Contact us
+        - listitem [ref=e40]:
+          - generic [ref=e41]:
+            - generic [ref=e42]: 
+            - text: Logged in as User Test
+  - generic [ref=e44]:
+    - list [ref=e46]:
+      - listitem [ref=e47]:
+        - link "Home" [ref=e48]:
+          - /url: /
+      - listitem [ref=e49]: Checkout
+    - heading "Address Details" [level=2] [ref=e51]
+    - generic [ref=e53]:
+      - list [ref=e55]:
+        - listitem [ref=e56]:
+          - heading "Your delivery address" [level=3] [ref=e57]
+        - listitem [ref=e58]: Mrs. User Test
+        - listitem
+        - listitem [ref=e59]: 15 Bruswick St
+        - listitem
+        - listitem [ref=e60]: Carlton Melbourne 3010
+        - listitem [ref=e61]: Australia
+        - listitem [ref=e62]: "0123456789"
+      - list [ref=e64]:
+        - listitem [ref=e65]:
+          - heading "Your billing address" [level=3] [ref=e66]
+        - listitem [ref=e67]: Mrs. User Test
+        - listitem
+        - listitem [ref=e68]: 15 Bruswick St
+        - listitem
+        - listitem [ref=e69]: Carlton Melbourne 3010
+        - listitem [ref=e70]: Australia
+        - listitem [ref=e71]: "0123456789"
+    - heading "Review Your Order" [level=2] [ref=e73]
+    - table [ref=e75]:
+      - rowgroup [ref=e76]:
+        - row "Item Description Price Quantity Total" [ref=e77]:
+          - cell "Item" [ref=e78]
+          - cell "Description" [ref=e79]
+          - cell "Price" [ref=e80]
+          - cell "Quantity" [ref=e81]
+          - cell "Total" [ref=e82]
+          - cell [ref=e83]
+      - rowgroup [ref=e84]:
+        - row "Product Image Half Sleeves Top Schiffli Detailing - Pink Kids > Tops & Shirts Rs. 359 1 Rs. 359" [ref=e85]:
+          - cell "Product Image" [ref=e86]:
+            - link "Product Image" [ref=e87]:
+              - /url: ""
+              - img "Product Image" [ref=e88]
+          - cell "Half Sleeves Top Schiffli Detailing - Pink Kids > Tops & Shirts" [ref=e89]:
+            - heading "Half Sleeves Top Schiffli Detailing - Pink" [level=4] [ref=e90]:
+              - link "Half Sleeves Top Schiffli Detailing - Pink" [ref=e91]:
+                - /url: /product_details/12
+            - paragraph [ref=e92]: Kids > Tops & Shirts
+          - cell "Rs. 359" [ref=e93]:
+            - paragraph [ref=e94]: Rs. 359
+          - cell "1" [ref=e95]:
+            - button "1" [ref=e96] [cursor=pointer]
+          - cell "Rs. 359" [ref=e97]:
+            - paragraph [ref=e98]: Rs. 359
+        - row "Total Amount Rs. 359" [ref=e99]:
+          - cell [ref=e100]
+          - cell [ref=e101]
+          - cell "Total Amount" [ref=e102]:
+            - heading "Total Amount" [level=4] [ref=e103]
+          - cell "Rs. 359" [ref=e104]:
+            - paragraph [ref=e105]: Rs. 359
+    - generic [ref=e106]:
+      - generic [ref=e107]: If you would like to add a comment about your order, please write it in the field below.
+      - textbox [ref=e108]
+    - link "Place Order" [ref=e110] [cursor=pointer]:
+      - /url: /payment
+  - insertion [ref=e112]:
+    - iframe [ref=e114]:
+      - generic [active] [ref=f84e1]:
+        - generic [ref=f84e6]:
+          - generic [ref=f84e7]:
+            - generic "FindandLoc" [ref=f84e9]:
+              - link "Click to Start" [ref=f84e10] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CSQYegj5OaYuuOqaV4_UPyovC0QvdrrCrgAHA2uvY6BPAjbcBEAEg_bSelQFgy5uChcAXoAG67_fjPcgBAakCfNlce6TEsz6oAwHIA8sEqgTlAU_QMWPa3oPnKvI1lkOCfHDD0SkD-nFsyVMEkDcB3q457zzXL2Dk-1DBly3-grlC3i7_GCqdWWhOIAZt6F0QoktchF9rN3c1ZxXdhMnDShcb05ccWDocKa1CassdThrJ5ZfZH75xBp1lue3inW3C5F_stlZ_IJAhngvIJCVbuWZR8W-DyNa_UkA3Oe63Uko9Fl-2jia0JlKo2KC0ACDDSBq_txpzoH9zclUyw2ZUT1fjJe3avyp1cnQqQs1DEd8BRYXiTWC7SgN4AjKkUmkCZjwDzsbtjhWEZ8IAd2ZL17nH_baxjhPABKyzwM2YBYgFh_7F11OAB7qnyMMYqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcB0ggvCIBhEAEYnwMyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpY-pDhyuLakQOxCTbjU859GqFCgAoBmAsByAsBogwDkAEBqg0CTVnIDQHqDRMIuZb5yuLakQMVpsq4CB3KhTC6iA4J2BMLiBQB0BUBmBYByhYCCgD4FgGAFwGyFwIYAboXAjgBshgJEgLxbBgBIgEA0BgB6BgBshkBN8IZAggB&gclid=EAIaIQobChMIi_fmyuLakQMVpsq4CB3KhTC6EAEYASAAEgIJefD_BwE&num=1&cid=CAQSvgEAwksa0baeQ6NJsAHOuEU4DNjy1yJ86pQyVwPch8gtDyMdaEXkC2JiWVE0QDRIYmAqsUYH08ntaWW1XZ82oT4_ZTk-RsGbLOJfzYn8HORoHj7wIpQljgU9XIjDretgm8bnk64aRy3UwYJCZTIn8rpScDdrPazuwTR1vd9HQxlNRyuLp3lkD9sQeJRboK2QqvM_ohiK7_2rPJtXMpE-7gDUrmtLufHNa5qd7Bh1tnGs0X_KTXHbHD_YQxD-lnKbGAE&sig=AOD64_0BX51IUcBdM94KyDARoEqKhYs8jg&client=ca-pub-1677597403311019&rf=1&nb=0&adurl=https://www.findandloc.com/%3Fgad_source%3D5%26gad_campaignid%3D22463741703
+            - generic [ref=f84e11]:
+              - link "You’re one click away—type the number and tap Continue." [ref=f84e13] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CSQYegj5OaYuuOqaV4_UPyovC0QvdrrCrgAHA2uvY6BPAjbcBEAEg_bSelQFgy5uChcAXoAG67_fjPcgBAakCfNlce6TEsz6oAwHIA8sEqgTlAU_QMWPa3oPnKvI1lkOCfHDD0SkD-nFsyVMEkDcB3q457zzXL2Dk-1DBly3-grlC3i7_GCqdWWhOIAZt6F0QoktchF9rN3c1ZxXdhMnDShcb05ccWDocKa1CassdThrJ5ZfZH75xBp1lue3inW3C5F_stlZ_IJAhngvIJCVbuWZR8W-DyNa_UkA3Oe63Uko9Fl-2jia0JlKo2KC0ACDDSBq_txpzoH9zclUyw2ZUT1fjJe3avyp1cnQqQs1DEd8BRYXiTWC7SgN4AjKkUmkCZjwDzsbtjhWEZ8IAd2ZL17nH_baxjhPABKyzwM2YBYgFh_7F11OAB7qnyMMYqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcB0ggvCIBhEAEYnwMyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpY-pDhyuLakQOxCTbjU859GqFCgAoBmAsByAsBogwDkAEBqg0CTVnIDQHqDRMIuZb5yuLakQMVpsq4CB3KhTC6iA4J2BMLiBQB0BUBmBYByhYCCgD4FgGAFwGyFwIYAboXAjgBshgJEgLxbBgBIgEA0BgB6BgBshkBN8IZAggB&gclid=EAIaIQobChMIi_fmyuLakQMVpsq4CB3KhTC6EAEYASAAEgIJefD_BwE&num=1&cid=CAQSvgEAwksa0baeQ6NJsAHOuEU4DNjy1yJ86pQyVwPch8gtDyMdaEXkC2JiWVE0QDRIYmAqsUYH08ntaWW1XZ82oT4_ZTk-RsGbLOJfzYn8HORoHj7wIpQljgU9XIjDretgm8bnk64aRy3UwYJCZTIn8rpScDdrPazuwTR1vd9HQxlNRyuLp3lkD9sQeJRboK2QqvM_ohiK7_2rPJtXMpE-7gDUrmtLufHNa5qd7Bh1tnGs0X_KTXHbHD_YQxD-lnKbGAE&sig=AOD64_0BX51IUcBdM94KyDARoEqKhYs8jg&client=ca-pub-1677597403311019&rf=1&nb=7&adurl=https://www.findandloc.com/%3Fgad_source%3D5%26gad_campaignid%3D22463741703
+              - link [ref=f84e14] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CSQYegj5OaYuuOqaV4_UPyovC0QvdrrCrgAHA2uvY6BPAjbcBEAEg_bSelQFgy5uChcAXoAG67_fjPcgBAakCfNlce6TEsz6oAwHIA8sEqgTlAU_QMWPa3oPnKvI1lkOCfHDD0SkD-nFsyVMEkDcB3q457zzXL2Dk-1DBly3-grlC3i7_GCqdWWhOIAZt6F0QoktchF9rN3c1ZxXdhMnDShcb05ccWDocKa1CassdThrJ5ZfZH75xBp1lue3inW3C5F_stlZ_IJAhngvIJCVbuWZR8W-DyNa_UkA3Oe63Uko9Fl-2jia0JlKo2KC0ACDDSBq_txpzoH9zclUyw2ZUT1fjJe3avyp1cnQqQs1DEd8BRYXiTWC7SgN4AjKkUmkCZjwDzsbtjhWEZ8IAd2ZL17nH_baxjhPABKyzwM2YBYgFh_7F11OAB7qnyMMYqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcB0ggvCIBhEAEYnwMyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpY-pDhyuLakQOxCTbjU859GqFCgAoBmAsByAsBogwDkAEBqg0CTVnIDQHqDRMIuZb5yuLakQMVpsq4CB3KhTC6iA4J2BMLiBQB0BUBmBYByhYCCgD4FgGAFwGyFwIYAboXAjgBshgJEgLxbBgBIgEA0BgB6BgBshkBN8IZAggB&gclid=EAIaIQobChMIi_fmyuLakQMVpsq4CB3KhTC6EAEYASAAEgIJefD_BwE&num=1&cid=CAQSvgEAwksa0baeQ6NJsAHOuEU4DNjy1yJ86pQyVwPch8gtDyMdaEXkC2JiWVE0QDRIYmAqsUYH08ntaWW1XZ82oT4_ZTk-RsGbLOJfzYn8HORoHj7wIpQljgU9XIjDretgm8bnk64aRy3UwYJCZTIn8rpScDdrPazuwTR1vd9HQxlNRyuLp3lkD9sQeJRboK2QqvM_ohiK7_2rPJtXMpE-7gDUrmtLufHNa5qd7Bh1tnGs0X_KTXHbHD_YQxD-lnKbGAE&sig=AOD64_0BX51IUcBdM94KyDARoEqKhYs8jg&client=ca-pub-1677597403311019&rf=1&nb=8&adurl=https://www.findandloc.com/%3Fgad_source%3D5%26gad_campaignid%3D22463741703
+                - img [ref=f84e15]
+          - generic "FindandLoc" [ref=f84e17]:
+            - link "FindandLoc" [ref=f84e18] [cursor=pointer]:
+              - /url: https://googleads.g.doubleclick.net/aclk?sa=l&ai=CSQYegj5OaYuuOqaV4_UPyovC0QvdrrCrgAHA2uvY6BPAjbcBEAEg_bSelQFgy5uChcAXoAG67_fjPcgBAakCfNlce6TEsz6oAwHIA8sEqgTlAU_QMWPa3oPnKvI1lkOCfHDD0SkD-nFsyVMEkDcB3q457zzXL2Dk-1DBly3-grlC3i7_GCqdWWhOIAZt6F0QoktchF9rN3c1ZxXdhMnDShcb05ccWDocKa1CassdThrJ5ZfZH75xBp1lue3inW3C5F_stlZ_IJAhngvIJCVbuWZR8W-DyNa_UkA3Oe63Uko9Fl-2jia0JlKo2KC0ACDDSBq_txpzoH9zclUyw2ZUT1fjJe3avyp1cnQqQs1DEd8BRYXiTWC7SgN4AjKkUmkCZjwDzsbtjhWEZ8IAd2ZL17nH_baxjhPABKyzwM2YBYgFh_7F11OAB7qnyMMYqAenzLECqAfi2LECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrEC2AcB0ggvCIBhEAEYnwMyCIqCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpY-pDhyuLakQOxCTbjU859GqFCgAoBmAsByAsBogwDkAEBqg0CTVnIDQHqDRMIuZb5yuLakQMVpsq4CB3KhTC6iA4J2BMLiBQB0BUBmBYByhYCCgD4FgGAFwGyFwIYAboXAjgBshgJEgLxbBgBIgEA0BgB6BgBshkBN8IZAggB&gclid=EAIaIQobChMIi_fmyuLakQMVpsq4CB3KhTC6EAEYASAAEgIJefD_BwE&num=1&cid=CAQSvgEAwksa0baeQ6NJsAHOuEU4DNjy1yJ86pQyVwPch8gtDyMdaEXkC2JiWVE0QDRIYmAqsUYH08ntaWW1XZ82oT4_ZTk-RsGbLOJfzYn8HORoHj7wIpQljgU9XIjDretgm8bnk64aRy3UwYJCZTIn8rpScDdrPazuwTR1vd9HQxlNRyuLp3lkD9sQeJRboK2QqvM_ohiK7_2rPJtXMpE-7gDUrmtLufHNa5qd7Bh1tnGs0X_KTXHbHD_YQxD-lnKbGAE&sig=AOD64_0BX51IUcBdM94KyDARoEqKhYs8jg&client=ca-pub-1677597403311019&rf=1&nb=1&adurl=https://www.findandloc.com/%3Fgad_source%3D5%26gad_campaignid%3D22463741703
+        - img [ref=f84e22] [cursor=pointer]
+        - button [ref=f84e24] [cursor=pointer]:
+          - img [ref=f84e25]
+        - iframe
+  - contentinfo [ref=e115]:
+    - generic [ref=e120]:
+      - heading "Subscription" [level=2] [ref=e121]
+      - generic [ref=e122]:
+        - textbox "Your email address" [ref=e123]
+        - button "" [ref=e124] [cursor=pointer]:
+          - generic [ref=e125]: 
+        - paragraph [ref=e126]:
+          - text: Get the most recent updates from
+          - text: our site and be updated your self...
+    - paragraph [ref=e130]: Copyright © 2021 All rights reserved
+  - text: 
+  - insertion [ref=e131]:
+    - iframe [ref=e134]:
+      - iframe [ref=f76e1]:
+        - generic [ref=f78e2]:
+          - link "Advertisement" [ref=f78e4]:
+            - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjssdZOC0-0Dw6DkiwdKXET-Qwg4vi8ZtcHq0encrwtMaZBATecdupe2hnHzTSpn9K3Ooz76j_2-_RJpvX1t63fHWI65eI-ahl1Vgk5Pnq981h8fpWUToJxZNw5oZi7vC8ORBMY6SEzujSazpuJ5511wpXHYS_Ot5rYBcNQDZdKbSmJpdrH-2jXe_qic3oi5cU6wuvzd7otmVAFGjpOanHGLfcEEji4BLJlH81HYxZmrD44ZmCpqWGy3rOnL7-xF8waGZTkERO6nyFpPCK8uMF9coLrXyR6dg7d9NMCJKN4jS7KY1I55l8YIaVtxJfMehVC8hEGGv_rB8DxDJ9_FEB1o47erhEjeCPfsDC7btzpZfjufdWb1q-2NLflYe9z8pd462CrmIjM80HxDvq1XrKLINcTSdI93nVMTKw6B9YrfH1M_tus_DvfMmIJB1PtYSaWetaMG17XGz_yGua3AAWck0SHuN94ESGsmdp4VpMYxNOgCAa8ZHeqRS6f89229PIisxZEC222oZPKXXijC5ZEzLqeWamjvC5V8jzDmPOuW6gXFpy0U78ECgxALrrBwYk1gaDUBauIXCVAp8qG2yjpOOXsLVIHb1JCRh-mMoqCNi8mVlS6It6oVbMaxj7bqm6z-4IVjMc2miMDkwMjvxxHnN3VUfaQKflCJxciaSq1J_odT9O6DkAaj2R6RNey8NpStxvokv7eoTiRipyJuEbsQ0z8KBWDpkxENlsm-H--8nsb68aaeBgypVlow2dmJg91C8dosQ3YQaRmzXO27RfB4i_-Lj3pqXLkMrVhadcgA-jd86nDXVQ-SN2STw9vVlZdYVaXjBdY26QbQGzBpVu8VsrVgBPVIE-6kx95YALhD0N8hSSYJP8xZq4mtkxcy44YcaQmBBsfeQ2lC5iMjKQ6hV1srdt_p2Jea-njYOz6PyWPJgg0Ai6XVWZlQ0lmDsYSsUedNLTgBLzfyNglTfAlBYxqQwYn2b04m6OgQPkO8g_eGPeJtvL3RX1kfif7NumBXL7t9g_YGAdUtRlWJUg9oI1_7GysuFiDlqo6mkjDg99Lw1biLm8SmXrOPztk5sq9COlTPKdC-0mMiyP2R3bEkkog7NcxaU2MVdq55__UEAe2xm4Ca4fCKutZSWK1ppRngICTkJNQZUw0S-hjfIbdKEABFSeM057GXWMyqcKQyYafKbldr6dnyv--QdeFCEubPItt9fMYY_7Co1bAlNmLZZfEJWn9j4g6bBa4SuRu90H6bkLqMGfCovy69ZCbTmAw-tcEAihuHHHHTiJ-pA_OCXwarhWiBZ5fQtioltZv0SDbSleo6MyrTN1ff9niEprOMQV99II2KC9QCbyBI_z7W_UYFKmjUgZskso05pqAZo45jULLfWeZ6ElmgoxcrLeLzNQnXR9R8er2qwimCEiU6VBfkk7sX9MJFnx-MP3acL0UX86pTJGMUunZpf1QpfDypqwqmV3LNseAHhQbVLZ0gm6ny5e2epCK3niRVgj7Mt2kp1IBaXlsWrit4GCukG0FhVwfGoJDnVSTRa8tHg34U0gsV9JfDwEQe3Sv5hjqFJhtjc_c0vyFoUOmSIgPWXOwogG2EdlzmA3Jvkn1D9L-qKfH0dDM4RZNHeM8I2E4FwrnAHlFX4Cw&sai=AMfl-YTiIfZO-mJWQhnedBP8NZlrtv8QzJgUHcujrY7MiU66Ixrf_GQMcX16ah1WS3LafCNIT8MQT08Kqum1MufoGNfKvS4j_ixwQPFZaNTzmowZmamBZKCfsY-f-8xB50gByx4OIRqANgDknu40eJdYZIuyqz-fz71zHjmQDalx8_XZVIzFHTQnM3ki3LXUEDefQ76yGGP9i2XLctuJMIv0d7fQGPyShx55Fy7AE9wZ3hkYPfwakj7opgYlpGQxnq8yyp9NwpvJIPNaM6PsaikwZZgbVn5leN0hiTo4nkladAIzBiSRrcUilkiNN3zQj1YW6p-0F4DwL3QaOWeOSeRkNh4QTwXzl-02CSpXbW-sol9LCOwBAHabNOqAVnPDVrKKqwDqnqnW7JwyJR2Us8K7gYYkcFPB7ak0VMFr8416Prw1jGJ6_JlGaYCrgMMhsyXl2iSffka4pIyAeY4IA8cdSr_OhFNTfN44nJE2KeuGvLpnbRfsFcks0lOTAJ7VN96wkvIE1UmCPnMMnP6jRqMsbXmtSniclhSrzW35W7F-4EvHQy01QIpbXLYO-P_-VELvVg0HuJgh-X1z1jOXlEsdT_9q2Kwwpztn01e2gUha5qqieVw80X39WeEujVBERBlcAWTQjixJG9okZZpPtQwsObaF_18GZ-RxnIUv8AWdUswocPgTBJn3&sig=Cg0ArKJSzC7JZsponbiW&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://www.mbsbbank.com/promotions/global-easy-transfer%3Futm_source%3DGET%26utm_medium%3DProgrammatic%26utm_campaign%3DGET_Display
+            - img "Advertisement" [ref=f78e5]
+          - generic [ref=f78e6]:
+            - generic:
+              - img [ref=f78e10] [cursor=pointer]
+              - button [ref=f78e12] [cursor=pointer]:
+                - img [ref=f78e13]
+```

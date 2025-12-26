@@ -34,7 +34,9 @@ export class CartPage {
 
   async verifyProductInCart(productName: string, expectedPrice: string) {
     // Find the product row by name
-    const row = this.page.locator("#cart_info tbody tr").filter({ hasText: productName });
+    const row = this.page
+      .locator("#cart_info tbody tr")
+      .filter({ hasText: productName });
 
     // Verify name
     await expect(row.locator("h4 a")).toContainText(productName);

@@ -1,0 +1,111 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link "Website for automation practice" [ref=e8]:
+        - /url: /
+        - img "Website for automation practice" [ref=e9]
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link " Home" [ref=e14]:
+            - /url: /
+            - generic [ref=e15]: 
+            - text: Home
+        - listitem [ref=e16]:
+          - link " Products" [ref=e17]:
+            - /url: /products
+            - generic [ref=e18]: 
+            - text: Products
+        - listitem [ref=e19]:
+          - link " Cart" [ref=e20]:
+            - /url: /view_cart
+            - generic [ref=e21]: 
+            - text: Cart
+        - listitem [ref=e22]:
+          - link " Logout" [ref=e23]:
+            - /url: /logout
+            - generic [ref=e24]: 
+            - text: Logout
+        - listitem [ref=e25]:
+          - link " Delete Account" [ref=e26]:
+            - /url: /delete_account
+            - generic [ref=e27]: 
+            - text: Delete Account
+        - listitem [ref=e28]:
+          - link " Test Cases" [ref=e29]:
+            - /url: /test_cases
+            - generic [ref=e30]: 
+            - text: Test Cases
+        - listitem [ref=e31]:
+          - link " API Testing" [ref=e32]:
+            - /url: /api_list
+            - generic [ref=e33]: 
+            - text: API Testing
+        - listitem [ref=e34]:
+          - link " Video Tutorials" [ref=e35]:
+            - /url: https://www.youtube.com/c/AutomationExercise
+            - generic [ref=e36]: 
+            - text: Video Tutorials
+        - listitem [ref=e37]:
+          - link " Contact us" [ref=e38]:
+            - /url: /contact_us
+            - generic [ref=e39]: 
+            - text: Contact us
+        - listitem [ref=e40]:
+          - generic [ref=e41]:
+            - generic [ref=e42]: 
+            - text: Logged in as User Test
+  - generic [ref=e44]:
+    - list [ref=e46]:
+      - listitem [ref=e47]:
+        - link "Home" [ref=e48]:
+          - /url: /
+      - listitem [ref=e49]: Shopping Cart
+    - generic [ref=e54] [cursor=pointer]: Proceed To Checkout
+    - table [ref=e56]:
+      - rowgroup [ref=e57]:
+        - row "Item Description Price Quantity Total" [ref=e58]:
+          - cell "Item" [ref=e59]
+          - cell "Description" [ref=e60]
+          - cell "Price" [ref=e61]
+          - cell "Quantity" [ref=e62]
+          - cell "Total" [ref=e63]
+          - cell [ref=e64]
+      - rowgroup [ref=e65]:
+        - row "Product Image Sleeves Printed Top - White Kids > Tops & Shirts Rs. 499 1 Rs. 499 " [ref=e66]:
+          - cell "Product Image" [ref=e67]:
+            - link "Product Image" [ref=e68]:
+              - /url: ""
+              - img "Product Image" [ref=e69]
+          - cell "Sleeves Printed Top - White Kids > Tops & Shirts" [ref=e70]:
+            - heading "Sleeves Printed Top - White" [level=4] [ref=e71]:
+              - link "Sleeves Printed Top - White" [ref=e72]:
+                - /url: /product_details/11
+            - paragraph [ref=e73]: Kids > Tops & Shirts
+          - cell "Rs. 499" [ref=e74]:
+            - paragraph [ref=e75]: Rs. 499
+          - cell "1" [ref=e76]:
+            - button "1" [ref=e77] [cursor=pointer]
+          - cell "Rs. 499" [ref=e78]:
+            - paragraph [ref=e79]: Rs. 499
+          - cell "" [ref=e80]:
+            - generic [ref=e82] [cursor=pointer]: 
+  - contentinfo [ref=e83]:
+    - generic [ref=e88]:
+      - heading "Subscription" [level=2] [ref=e89]
+      - generic [ref=e90]:
+        - textbox "Your email address" [ref=e91]
+        - button "" [ref=e92] [cursor=pointer]:
+          - generic [ref=e93]: 
+        - paragraph [ref=e94]:
+          - text: Get the most recent updates from
+          - text: our site and be updated your self...
+    - paragraph [ref=e98]: Copyright © 2021 All rights reserved
+  - text: 
+  - generic:
+    - insertion:
+      - generic:
+        - iframe
+```
